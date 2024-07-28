@@ -22,21 +22,34 @@
 
 .container h1{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     font-size: 3rem;
-    color: #fff;
+    color: black;
     text-align: center;
     font-size: 90px;
     font-weight: 700;
 }
 
+.container h2{
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
 .quotes{
     position: absolute;
     width: 100%;
     font-size: 1.5rem;
-    color: #fff;
+    color: black;
     text-align: center;
     font-size: 30px;
     font-weight: 500;

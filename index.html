@@ -7,22 +7,18 @@
 </head>
 <body>
     <div class="container">
-        <img src="mecca.jpg" alt="background_image">
+        <!-- <img src="mecca.jpg" alt="background_image"> -->
         <h1 id="current_time"></h1>
+        <h2 id="current_date"></h2>
 
-        <div class="quotes">
+        <div id="prayer-times"></div>
+
+        <!-- <div class="quotes">
             <p>Today's quotes</p>
             <h2>Lost time is never found again</h2>
-        </div>
+        </div> -->
     </div>
 
-    <script>
-        let time = document.getElementById('current_time');
-
-        setInterval(() => {
-            let d = new Date();
-            time.innerHTML = d.toLocaleTimeString();
-        }, 1000);
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
