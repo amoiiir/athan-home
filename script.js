@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             const prayerTimes = data.prayers;
-            console.log('PrayerTimes:', data.prayers);
+            console.log('test:', data.prayers);
             const prayerTimesContainer = document.getElementById('prayer-times');
             
             prayerTimesContainer.innerHTML = `
